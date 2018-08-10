@@ -1,0 +1,9 @@
+{
+  "GOVUK / images / image": {
+		"prefix": "govuk-image",
+		"body": [
+			"<img src=\"larry-the-cat.jpg\" alt=\"An image of Larry the cat, Chief Mouser to the Cabinet Office\">"
+		],
+		"description": "GOVUK: image markup"
+	}
+}

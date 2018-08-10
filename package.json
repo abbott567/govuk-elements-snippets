@@ -29,11 +29,56 @@
         "snippets": [
             {
                 "language": "html",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/styles/global/colour.json"
             },
             {
                 "language": "nunjucks",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/styles/global/colour.json"
+            },
+            
+            {
+                "language": "html",
+                "path": "./snippets/styles/global/images.json"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/styles/global/images.json"
+            },
+
+            {
+                "language": "html",
+                "path": "./snippets/styles/global/layout.json"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/styles/global/layout.json"
+            },
+
+            {
+                "language": "html",
+                "path": "./snippets/styles/global/spacing.json"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/styles/global/spacing.json"
+            },
+
+            {
+                "language": "html",
+                "path": "./snippets/styles/global/typography.json"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/styles/global/typography.json"
+            },
+
+            {
+                "language": "html",
+                "path": "./snippets/styles/html/page-template.json"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/styles/nunjucks/page-template.json"
             }
         ]
     }

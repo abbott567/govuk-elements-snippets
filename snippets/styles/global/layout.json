@@ -1,0 +1,74 @@
+{
+  "GOVUK / layout / width-container": {
+		"prefix": "govuk-width-container",
+		"body": [
+			"<div class=\"govuk-width-container\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with width-container class"
+	},
+	"GOVUK / layout / main-wrapper": {
+		"prefix": "govuk-main-wrapper",
+		"body": [
+			"<main class=\"govuk-main-wrapper\">",
+			"  $0",
+			"</main>"
+		],
+		"description": "GOVUK: main tag and wrapper class"
+	},
+	"GOVUK / layout / grid-row": {
+		"prefix": "govuk-grid-row",
+		"body": [
+			"<div class=\"govuk-grid-row\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with grid-row class"
+	},
+	"GOVUK / layout / grid-column-full": {
+		"prefix": "govuk-grid-column-full",
+		"body": [
+			"<div class=\"grid-column-full\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with grid-column-full class"
+	},
+	"GOVUK / layout / grid-column-one-half": {
+		"prefix": "govuk-grid-column-one-half",
+		"body": [
+			"<div class=\"grid-column-one-half\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with grid-column-one-half class"
+	},
+	"GOVUK / layout / grid-column-one-third": {
+		"prefix": "govuk-grid-column-one-third",
+		"body": [
+			"<div class=\"grid-column-one-third\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with grid-column-one-third class"
+	},
+	"GOVUK / layout / grid-column-two-thirds": {
+		"prefix": "govuk-grid-column-two-thirds",
+		"body": [
+			"<div class=\"grid-column-two-thirds\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with grid-column-two-thirds class"
+	},
+	"GOVUK / layout / grid-column-one-quarter": {
+		"prefix": "govuk-grid-column-one-quarter",
+		"body": [
+			"<div class=\"grid-column-one-quarter\">",
+			"  $0",
+			"</div>"
+		],
+		"description": "GOVUK: div with grid-column-one-quarter class"
+	}
+}

@@ -1,0 +1,206 @@
+{
+  "GOVUK / typography / heading-xl": {
+		"prefix": "govuk-heading-xl",
+		"body": [
+			"<h$1 class=\"govuk-heading-xl\"></h$1>"
+		],
+		"description": "GOVUK: extra large heading"
+	},
+	"GOVUK / typography / heading-l": {
+		"prefix": "govuk-heading-l",
+		"body": [
+			"<h$1 class=\"govuk-heading-l\"></h$1>"
+		],
+		"description": "GOVUK: large heading"
+	},
+	"GOVUK / typography / heading-m": {
+		"prefix": "govuk-heading-m",
+		"body": [
+			"<h$1 class=\"govuk-heading-m\"></h$1>"
+		],
+		"description": "GOVUK: medium heading"
+	},
+	"GOVUK / typography / heading-s": {
+		"prefix": "govuk-heading-s",
+		"body": [
+			"<h$1 class=\"govuk-heading-s\"></h$1>"
+		],
+		"description": "GOVUK: small heading"
+	},
+	"GOVUK / typography / caption-xl": {
+		"prefix": "govuk-caption-xl",
+		"body": [
+			"<span class=\"govuk-caption-xl\">$0</span>"
+		],
+		"description": "GOVUK: extra large caption to go with heading"
+	},
+	"GOVUK / typography / caption-l": {
+		"prefix": "govuk-caption-l",
+		"body": [
+			"<span class=\"govuk-caption-l\">$0</span>"
+		],
+		"description": "GOVUK: large caption to go with heading"
+	},
+	"GOVUK / typography / caption-m": {
+		"prefix": "govuk-caption-m",
+		"body": [
+			"<span class=\"govuk-caption-m\">$0</span>"
+		],
+		"description": "GOVUK: medium caption to go with heading"
+	},
+	"GOVUK / typography / body": {
+		"prefix": "govuk-body",
+		"body": [
+			"<p class=\"govuk-body\">govuk-body</p>"
+		],
+		"description": "GOVUK: body text"
+	},
+	"GOVUK / typography / body-lede": {
+		"prefix": "govuk-body-lede",
+		"body": [
+			"<p class=\"govuk-body-l\">govuk-body</p>"
+		],
+		"description": "GOVUK: lede body text"
+	},
+	"GOVUK / typography / body-small": {
+		"prefix": "govuk-body-small",
+		"body": [
+			"<p class=\"govuk-body-s\">govuk-body</p>"
+		],
+		"description": "GOVUK: small body text"
+	},
+	"GOVUK / typography / link": {
+		"prefix": "govuk-link",
+		"body": [
+			"<a href=\"#\" class=\"govuk-link\">$0</a>"
+		],
+		"description": "GOVUK: link"
+	},
+	"GOVUK / typography / link-no-visited-state": {
+		"prefix": "govuk-link-no-visited-state",
+		"body": [
+			"<a href=\"#\" class=\"govuk-link govuk-link--no-visited-state\">$0</a>"
+		],
+		"description": "GOVUK: link that is always blue"
+	},
+	"GOVUK / typography / list": {
+		"prefix": "govuk-list",
+		"body": [
+			"<ul class=\"govuk-list\">",
+			"  <li>",
+			"    <a class=\"govuk-link\" href=\"#\">Benefits calculators</a>",
+			"  </li>",
+			"  <li>",
+			"    <a class=\"govuk-link\" href=\"#\">Benefit overpayments</a>",
+			"  </li>",
+			"  <li>",
+			"    <a class=\"govuk-link\" href=\"#\">Benefit fraud</a>",
+			"  </li>",
+			"  <li>",
+			"    <a class=\"govuk-link\" href=\"#\">More</a>",
+			"  </li>",
+			"</ul>"
+		],
+		"description": "GOVUK: list of links"
+	},
+	"GOVUK / typography / list-bullet": {
+		"prefix": "govuk-list-bullet",
+		"body": [
+			"<ul class=\"govuk-list govuk-list--bullet\">",
+			"  <li>apples</li>",
+			"  <li>oranges</li>",
+			"  <li>pears</li>",
+			"</ul>"
+		],
+		"description": "GOVUK: list with bullet points"
+	},
+	"GOVUK / typography / list-number": {
+		"prefix": "govuk-list-number",
+		"body": [
+			"<ol class=\"govuk-list govuk-list--number\">",
+			"  <li>Delivery address.</li>",
+			"  <li>Payment.</li>",
+			"  <li>Confirmation.</li>",
+			"</ol>"
+		],
+		"description": "GOVUK: list with numbered bullets"
+  },
+  
+  "GOVUK / typography / font-size": {
+    "prefix": "govuk-font-size",
+    "body": [
+      "govuk-!-font-size-$1"
+    ],
+		"description": "GOVUK: font size override"
+  },
+  "GOVUK / typography / font-weight (regular)": {
+    "prefix": "govuk-font-weight-regular",
+    "body": [
+      "govuk-!-font-weight-regular"
+    ],
+		"description": "GOVUK: font weight regular"
+  },
+  "GOVUK / typography / font-weight (bold)": {
+    "prefix": "govuk-font-weight-bold",
+    "body": [
+      "govuk-!-font-weight-bold"
+    ],
+		"description": "GOVUK: font weight bold"
+	},
+	"GOVUK / typography / section-break": {
+    "prefix": "govuk-section-break",
+    "body": [
+			"<hr class=\"govuk-section-break\">"
+    ],
+		"description": "GOVUK: invisible section break"
+	},
+	"GOVUK / typography / section-break-visible": {
+    "prefix": "govuk-section-break-visible",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break--visible\">"
+    ],
+		"description": "GOVUK: visible section break"
+	},
+	"GOVUK / typography / section-break-xl": {
+    "prefix": "govuk-section-break-xl",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break-xl\">"
+    ],
+		"description": "GOVUK: invisible extra large section break"
+	},
+	"GOVUK / typography / section-break-xl-visible": {
+    "prefix": "govuk-section-break-xl-visible",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break-xl govuk-section-break--visible\">"
+    ],
+		"description": "GOVUK: visible extra large section break"
+	},
+	"GOVUK / typography / section-break-l": {
+    "prefix": "govuk-section-break-l",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break-l\">"
+    ],
+		"description": "GOVUK: invisible large section break"
+	},
+	"GOVUK / typography / section-break-l-visible": {
+    "prefix": "govuk-section-break-l-visible",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break-l govuk-section-break--visible\">"
+    ],
+		"description": "GOVUK: visible large section break"
+	},
+	"GOVUK / typography / section-break-m": {
+    "prefix": "govuk-section-break-m",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break-m\">"
+    ],
+		"description": "GOVUK: invisible medium section break"
+	},
+	"GOVUK / typography / section-break-m-visible": {
+    "prefix": "govuk-section-break-m-visible",
+    "body": [
+			"<hr class=\"govuk-section-break govuk-section-break-m govuk-section-break--visible\">"
+    ],
+		"description": "GOVUK: visible medium section break"
+	}
+}
