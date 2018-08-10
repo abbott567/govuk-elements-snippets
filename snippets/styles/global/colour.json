@@ -1,202 +1,202 @@
 {
   "GOVUK / colour / text-colour": {
-		"prefix": "govuk-colour-text",
+		"prefix": "gov-colour-text",
 		"body": [
 			"$govuk-text-colour"
 		],
 		"description": "GOVUK: colour variable for text colour"
   },
   "GOVUK / colour / secondary-text-colour": {
-		"prefix": "govuk-colour-text-secondary",
+		"prefix": "gov-colour-text-secondary",
 		"body": [
 			"$govuk-secondary-text-colour"
 		],
 		"description": "GOVUK: colour variable for secondary text colour"
   },
   "GOVUK / colour / link-colour": {
-		"prefix": "govuk-colour-link",
+		"prefix": "gov-colour-link",
 		"body": [
 			"$govuk-link-colour"
 		],
 		"description": "GOVUK: colour variable for links"
   },
   "GOVUK / colour / link-hover-colour": {
-		"prefix": "$govuk-colour-link-hover",
+		"prefix": "gov-colour-link-hover",
 		"body": [
 			"$govuk-link-hover-colour"
 		],
 		"description": "GOVUK: colour variable for hoverering on links"
   },
   "GOVUK / colour / link-visited-colour": {
-		"prefix": "govuk-colour-link-visited",
+		"prefix": "gov-colour-link-visited",
 		"body": [
 			"$govuk-link-visited-colour"
 		],
 		"description": "GOVUK: colour variable for visited links"
   },
   "GOVUK / colour / border-colour": {
-		"prefix": "govuk-colour-border",
+		"prefix": "gov-colour-border",
 		"body": [
 			"$govuk-border-colour"
 		],
 		"description": "GOVUK: colour variable for borders"
   },
   "GOVUK / colour / focus-colour": {
-		"prefix": "govuk-colour-focus",
+		"prefix": "gov-colour-focus",
 		"body": [
 			"$govuk-focus-colour"
 		],
 		"description": "GOVUK: colour variable for focus"
   },
   "GOVUK / colour / error-colour": {
-		"prefix": "govuk-colour-error",
+		"prefix": "gov-colour-error",
 		"body": [
 			"$govuk-error-colour"
 		],
 		"description": "GOVUK: colour variable for errors"
   },
   "GOVUK / colour / grey-1": {
-		"prefix": "govuk-colour-grey-1",
+		"prefix": "gov-colour-grey-1",
 		"body": [
 			"govuk-colour(\"grey-1\")"
 		],
 		"description": "GOVUK: colour variable for grey-1"
   },
   "GOVUK / colour / grey-2": {
-		"prefix": "govuk-colour-grey-2",
+		"prefix": "gov-colour-grey-2",
 		"body": [
 			"govuk-colour(\"grey-2\")"
 		],
 		"description": "GOVUK: colour variable for grey-2"
   },
   "GOVUK / colour / grey-3": {
-		"prefix": "govuk-colour-grey-3",
+		"prefix": "gov-colour-grey-3",
 		"body": [
 			"govuk-colour(\"grey-3\")"
 		],
 		"description": "GOVUK: colour variable for grey-3"
   },
   "GOVUK / colour / grey-4": {
-		"prefix": "govuk-colour-grey-4",
+		"prefix": "gov-colour-grey-4",
 		"body": [
 			"govuk-colour(\"grey-4\")"
 		],
 		"description": "GOVUK: colour variable for grey-4"
   },
   "GOVUK / colour / black": {
-		"prefix": "govuk-colour-black",
+		"prefix": "gov-colour-black",
 		"body": [
 			"govuk-colour(\"black\")"
 		],
 		"description": "GOVUK: colour variable for black"
   },
   "GOVUK / colour / blue": {
-		"prefix": "govuk-colour-blue",
+		"prefix": "gov-colour-blue",
 		"body": [
 			"govuk-colour(\"blue\")"
 		],
 		"description": "GOVUK: colour variable for blue"
   },
   "GOVUK / colour / white": {
-		"prefix": "govuk-colour-white",
+		"prefix": "gov-colour-white",
 		"body": [
 			"govuk-colour(\"white\")"
 		],
 		"description": "GOVUK: colour variable for white"
   },
   "GOVUK / colour / red": {
-		"prefix": "govuk-colour-red",
+		"prefix": "gov-colour-red",
 		"body": [
 			"govuk-colour(\"red\")"
 		],
 		"description": "GOVUK: colour variable for red"
   },
   "GOVUK / colour / bright-red": {
-		"prefix": "govuk-colour-bright-red",
+		"prefix": "gov-colour-bright-red",
 		"body": [
 			"govuk-colour(\"bright-red\")"
 		],
 		"description": "GOVUK: colour variable for bright red"
   },
   "GOVUK / colour / orange": {
-		"prefix": "govuk-colour-orange",
+		"prefix": "gov-colour-orange",
 		"body": [
 			"govuk-colour(\"orange\")"
 		],
 		"description": "GOVUK: colour variable for orange"
   },
   "GOVUK / colour / brown": {
-		"prefix": "govuk-colour-brown",
+		"prefix": "gov-colour-brown",
 		"body": [
 			"govuk-colour(\"brown\")"
 		],
 		"description": "GOVUK: colour variable for brown"
   },
   "GOVUK / colour / yellow": {
-		"prefix": "govuk-colour-yellow",
+		"prefix": "gov-colour-yellow",
 		"body": [
 			"govuk-colour(\"yellow\")"
 		],
 		"description": "GOVUK: colour variable for yellow"
   },
   "GOVUK / colour / light-green": {
-		"prefix": "govuk-colour-light-green",
+		"prefix": "gov-colour-light-green",
 		"body": [
 			"govuk-colour(\"light-green\")"
 		],
 		"description": "GOVUK: colour variable for light green"
   },
   "GOVUK / colour / green": {
-		"prefix": "govuk-colour-green",
+		"prefix": "gov-colour-green",
 		"body": [
 			"govuk-colour(\"green\")"
 		],
 		"description": "GOVUK: colour variable for green"
   },
   "GOVUK / colour / turquoise": {
-		"prefix": "govuk-colour-turquoise",
+		"prefix": "gov-colour-turquoise",
 		"body": [
 			"govuk-colour(\"turquoise\")"
 		],
 		"description": "GOVUK: colour variable for turquoise"
   },
   "GOVUK / colour / light-blue": {
-		"prefix": "govuk-colour-light-blue",
+		"prefix": "gov-colour-light-blue",
 		"body": [
 			"govuk-colour(\"light-blue\")"
 		],
 		"description": "GOVUK: colour variable for light blue"
   },
   "GOVUK / colour / light-purple": {
-		"prefix": "govuk-colour-light-purple",
+		"prefix": "gov-colour-light-purple",
 		"body": [
 			"govuk-colour(\"light-purple\")"
 		],
 		"description": "GOVUK: colour variable for light purple"
   },
   "GOVUK / colour / purple": {
-		"prefix": "govuk-colour-purple",
+		"prefix": "gov-colour-purple",
 		"body": [
 			"govuk-colour(\"purple\")"
 		],
 		"description": "GOVUK: colour variable for purple"
   },
   "GOVUK / colour / bright-purple": {
-		"prefix": "govuk-colour-bright-purple",
+		"prefix": "gov-colour-bright-purple",
 		"body": [
 			"govuk-colour(\"bright-purple\")"
 		],
 		"description": "GOVUK: colour variable for bright purple"
   },
   "GOVUK / colour / pink": {
-		"prefix": "govuk-colour-pink",
+		"prefix": "gov-colour-pink",
 		"body": [
 			"govuk-colour(\"pink\")"
 		],
 		"description": "GOVUK: colour variable for pink"
   },
   "GOVUK / colour / light-pink": {
-		"prefix": "govuk-colour-light-pink",
+		"prefix": "gov-colour-light-pink",
 		"body": [
 			"govuk-colour(\"light-pink\")"
 		],

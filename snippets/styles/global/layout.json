@@ -1,6 +1,6 @@
 {
   "GOVUK / layout / width-container": {
-		"prefix": "govuk-width-container",
+		"prefix": "gov-width-container",
 		"body": [
 			"<div class=\"govuk-width-container\">",
 			"  $0",
@@ -9,7 +9,7 @@
 		"description": "GOVUK: div with width-container class"
 	},
 	"GOVUK / layout / main-wrapper": {
-		"prefix": "govuk-main-wrapper",
+		"prefix": "gov-main-wrapper",
 		"body": [
 			"<main class=\"govuk-main-wrapper\">",
 			"  $0",
@@ -18,7 +18,7 @@
 		"description": "GOVUK: main tag and wrapper class"
 	},
 	"GOVUK / layout / grid-row": {
-		"prefix": "govuk-grid-row",
+		"prefix": "gov-grid-row",
 		"body": [
 			"<div class=\"govuk-grid-row\">",
 			"  $0",
@@ -27,7 +27,7 @@
 		"description": "GOVUK: div with grid-row class"
 	},
 	"GOVUK / layout / grid-column-full": {
-		"prefix": "govuk-grid-column-full",
+		"prefix": "gov-grid-column-full",
 		"body": [
 			"<div class=\"grid-column-full\">",
 			"  $0",
@@ -36,7 +36,7 @@
 		"description": "GOVUK: div with grid-column-full class"
 	},
 	"GOVUK / layout / grid-column-one-half": {
-		"prefix": "govuk-grid-column-one-half",
+		"prefix": "gov-grid-column-one-half",
 		"body": [
 			"<div class=\"grid-column-one-half\">",
 			"  $0",
@@ -45,7 +45,7 @@
 		"description": "GOVUK: div with grid-column-one-half class"
 	},
 	"GOVUK / layout / grid-column-one-third": {
-		"prefix": "govuk-grid-column-one-third",
+		"prefix": "gov-grid-column-one-third",
 		"body": [
 			"<div class=\"grid-column-one-third\">",
 			"  $0",
@@ -54,7 +54,7 @@
 		"description": "GOVUK: div with grid-column-one-third class"
 	},
 	"GOVUK / layout / grid-column-two-thirds": {
-		"prefix": "govuk-grid-column-two-thirds",
+		"prefix": "gov-grid-column-two-thirds",
 		"body": [
 			"<div class=\"grid-column-two-thirds\">",
 			"  $0",
@@ -63,7 +63,7 @@
 		"description": "GOVUK: div with grid-column-two-thirds class"
 	},
 	"GOVUK / layout / grid-column-one-quarter": {
-		"prefix": "govuk-grid-column-one-quarter",
+		"prefix": "gov-grid-column-one-quarter",
 		"body": [
 			"<div class=\"grid-column-one-quarter\">",
 			"  $0",

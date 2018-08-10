@@ -1,104 +1,104 @@
 {
   "GOVUK / spacing / margin-[0-9]": {
-    "prefix": "govuk-margin",
+    "prefix": "gov-margin",
     "body": [
       "govuk-!-margin-$0"
     ],
 		"description": "GOVUK: set the margin from 0 to 9"
   },
   "GOVUK / spacing / margin-top-[0-9]": {
-    "prefix": "govuk-margin-top",
+    "prefix": "gov-margin-top",
     "body": [
       "govuk-!-margin-top-$0"
     ],
     "description": "GOVUK: set the top margin from 0 to 9"
   },
   "GOVUK / spacing / margin-right-[0-9]": {
-    "prefix": "govuk-margin-right",
+    "prefix": "gov-margin-right",
     "body": [
       "govuk-!-margin-right-$0"
     ],
     "description": "GOVUK: set the right margin from 0 to 9"
   },
   "GOVUK / spacing / margin-bottom-[0-9]": {
-    "prefix": "govuk-margin-bottom",
+    "prefix": "gov-margin-bottom",
     "body": [
       "govuk-!-margin-bottom-$0"
     ],
     "description": "GOVUK: set the bottom margin from 0 to 9"
   },
   "GOVUK / spacing / margin-left-[0-9]": {
-    "prefix": "govuk-margin-left",
+    "prefix": "gov-margin-left",
     "body": [
       "govuk-!-margin-left-$0"
     ],
     "description": "GOVUK: set the left margin from 0 to 9"
   },
   "GOVUK / spacing / padding-[0-9]": {
-    "prefix": "govuk-padding",
+    "prefix": "gov-padding",
     "body": [
       "govuk-!-padding-$0"
     ],
     "description": "GOVUK: set the padding 0 to 9"
   },
   "GOVUK / spacing / padding-top-[0-9]": {
-    "prefix": "govuk-padding-top",
+    "prefix": "gov-padding-top",
     "body": [
       "govuk-!-padding-top-$0"
     ],
     "description": "GOVUK: set the top padding from 0 to 9"
   },
   "GOVUK / spacing / padding-right-[0-9]": {
-    "prefix": "govuk-padding-right",
+    "prefix": "gov-padding-right",
     "body": [
       "govuk-!-padding-right-$0"
     ],
     "description": "GOVUK: set the right padding from 0 to 9"
   },
   "GOVUK / spacing / padding-bottom-[0-9]": {
-    "prefix": "govuk-padding-bottom",
+    "prefix": "gov-padding-bottom",
     "body": [
       "govuk-!-padding-bottom-$0"
     ],
     "description": "GOVUK: set the bottom padding from 0 to 9"
   },
   "GOVUK / spacing / padding-left-[0-9]": {
-    "prefix": "govuk-padding-left",
+    "prefix": "gov-padding-left",
     "body": [
       "govuk-!-padding-left-$0"
     ],
     "description": "GOVUK: set the left padding from 0 to 9"
   },
   "GOVUK / spacing / width-three-quarters": {
-    "prefix": "govuk-width-three-quarters",
+    "prefix": "gov-width-three-quarters",
     "body": [
       "govuk-!-width-three-quarters"
     ],
     "description": "GOVUK: override the width to three quarters"
   },
   "GOVUK / spacing / width-two-thirds": {
-    "prefix": "govuk-width-two-thirds",
+    "prefix": "gov-width-two-thirds",
     "body": [
       "govuk-!-width-two-thirds"
     ],
     "description": "GOVUK: override the width to two thirds"
   },
   "GOVUK / spacing / width-one-half": {
-    "prefix": "govuk-width-one-half",
+    "prefix": "gov-width-one-half",
     "body": [
       "govuk-!-width-one-half"
     ],
     "description": "GOVUK: override the width to one half"
   },
   "GOVUK / spacing / width-one-third": {
-    "prefix": "govuk-width-one-third",
+    "prefix": "gov-width-one-third",
     "body": [
       "govuk-!-width-one-third"
     ],
     "description": "GOVUK: override the width to one third"
   },
   "GOVUK / spacing / width-one-quarter": {
-    "prefix": "govuk-width-one-quarter",
+    "prefix": "gov-width-one-quarter",
     "body": [
       "govuk-!-width-one-quarter"
     ],

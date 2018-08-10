@@ -1,6 +1,6 @@
 {
   "GOVUK / page template / default": {
-		"prefix": "govuk-page-template-default",
+		"prefix": "govuk-html-page-template-default",
 		"body": [
 			"<!DOCTYPE html>",
       "<html lang=\"en\" class=\"govuk-template \">",
@@ -115,7 +115,7 @@
 		"description": "GOVUK: HTML output for the default page template"
   },
   "GOVUK / page template / customised": {
-		"prefix": "govuk-page-template-customised",
+		"prefix": "govuk-html-page-template-customised",
 		"body": [
       "<!DOCTYPE html>",
       "<html lang\"en\"class\"govuk-template app-html-class\">",
@@ -287,27 +287,6 @@
       "  </body>",
       "</html>"
 		],
-		"description": "GOVUK: Nunjucks output for the customised page template"
-	},
-  "GOVUK / page template / prototype": {
-		"prefix": "govuk-page-prototype",
-		"body": [
-			"{% extends \"layout.html\" %}",
-			"",
-			"{% block pageTitle %}",
-			"  Page title",
-			"{% endblock %}",
-			"",
-			"{% block content %}",
-			"",
-			"  <div class=\"govuk-grid-row\">",
-			"    <div class=\"govuk-grid-column-two-thirds\">",
-			"      $0",
-			"    </div>",
-			"  </div>",
-			"",
-			"{% endblock %}"
-		],
-		"description": "GOVUK: Nunjucks output for a basic prototype page"
+		"description": "GOVUK: HTML output for the customised page template"
 	}
 }

@@ -1,6 +1,6 @@
 {
   "GOVUK / page template / default": {
-		"prefix": "govuk-page-template-default",
+		"prefix": "gov-njk-page-template-default",
 		"body": [
 			"{% block head %}",
       "  <!--[if !IE 8]><!-->",
@@ -32,7 +32,7 @@
 		"description": "GOVUK: Nunjucks output for the default page template"
   },
   "GOVUK / page template / customised": {
-		"prefix": "govuk-page-template-customised",
+		"prefix": "gov-njk-page-template-customised",
 		"body": [
 			"{# Example that changes every setting in the template #}",
       "",
@@ -160,7 +160,7 @@
 		"description": "GOVUK: Nunjucks output for the customised page template"
 	},
   "GOVUK / page template / prototype": {
-		"prefix": "govuk-page-prototype",
+		"prefix": "gov-njk-page-prototype",
 		"body": [
 			"{% extends \"layout.html\" %}",
 			"",
