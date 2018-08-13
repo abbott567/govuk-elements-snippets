@@ -1,0 +1,25 @@
+{
+  "GOVUK / components / breadcrumbs / ": {
+		"prefix": "gov-njk-component-breadcrumbs",
+		"body": [
+			"{% from \"breadcrumbs/macro.njk\" import govukBreadcrumbs %}",
+			"",
+			"{{ govukBreadcrumbs({",
+			"  items: [",
+			"    {",
+			"      text: \"Home\",",
+			"      href: \"#\"",
+			"    },",
+			"    {",
+			"      \"text: \"Passports, travel and living abroad\",",
+			"      href: \"#\"",
+			"    },",
+			"    {",
+			"      text: \"Travel abroad\"",
+			"    }",
+			"  ]",
+			"}) }}"
+		],
+	"description": "GOVUK: Nunjucks breadcrumbs component"
+	}
+}
