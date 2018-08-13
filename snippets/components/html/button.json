@@ -1,0 +1,29 @@
+{
+  "GOVUK / components / button (standard) / ": {
+		"prefix": "gov-html-component-button",
+		"body": [
+			"<button type=\"submit\" class=\"govuk-button\">",
+			"  Save and continue",
+			"</button>"
+		],
+		"description": "GOVUK: HTML standard button component"
+	},
+	"GOVUK / components / button (disabled) / ": {
+		"prefix": "gov-html-component-button-disabled",
+		"body": [
+			"<button type=\"submit\" disabled=\"disabled\" aria-disabled=\"true\" class=\"govuk-button govuk-button--disabled\">",
+			"  Disabled button",
+			"</button>"
+		],
+		"description": "GOVUK: HTML disabled button component"
+	},
+	"GOVUK / components / button (start) / ": {
+		"prefix": "gov-html-component-button-start",
+		"body": [
+			"<a href=\"#\" role=\"button\" class=\"govuk-button govuk-button--start\">",
+			"  Start now",
+			"</a>"
+		],
+		"description": "GOVUK: HTML start button component"
+  }
+}

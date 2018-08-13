@@ -1,0 +1,38 @@
+{
+  "GOVUK / components / button (standard) / ": {
+		"prefix": "gov-njk-component-button",
+		"body": [
+			"{% from \"button/macro.njk\" import govukButton %}",
+			"",
+			"{{ govukButton({",
+			"  text: \"Save and continue\"",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks standard button component"
+	},
+	"GOVUK / components / button (disabled) / ": {
+		"prefix": "ggov-njk-component-button-disabled",
+		"body": [
+			"{% from \"button/macro.njk\" import govukButton %}",
+			"",
+			"{{ govukButton({",
+			"  text: \"Disabled button\",",
+			"  disabled: true",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks disabled button component"
+	},
+	"GOVUK / components / button (start) / ": {
+		"prefix": "gov-njk-component-button-start",
+		"body": [
+			"{% from \"button/macro.njk\" import govukButton %}",
+			"",
+			"{{ govukButton({",
+			"  text: \"Start now\",",
+			"  href: \"#\",",
+			"  classes: \"govuk-button--start\"",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks start button component"
+  }
+}
