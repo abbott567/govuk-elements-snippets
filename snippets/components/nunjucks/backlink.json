@@ -1,0 +1,14 @@
+{
+  "GOVUK / components / backlink / ": {
+		"prefix": "gov-njk-component-backlink",
+		"body": [
+			"{% from \"back-link/macro.njk\" import govukBackLink %}",
+			"",
+			"{{ govukBackLink({",
+			"  text: \"Back\",",
+			"  href: \"#\"",
+			"}) }}\""
+		],
+		"description": "GOVUK: Nunjucks backlink component"
+  }
+}

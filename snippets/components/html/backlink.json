@@ -1,0 +1,9 @@
+{
+  "GOVUK / components / backlink / ": {
+		"prefix": "gov-html-component-backlink",
+		"body": [
+			"<a href=\"#\" class=\"govuk-back-link\">Back</a>"
+		],
+		"description": "GOVUK: HTML backlink component"
+  }
+}
