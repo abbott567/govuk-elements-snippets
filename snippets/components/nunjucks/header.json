@@ -1,0 +1,13 @@
+{
+  "GOVUK / components / header ": {
+		"prefix": "gov-njk-component-header",
+		"body": [
+			"{% from \"header/macro.njk\" import govukHeader %}",
+      "",
+      "{{ govukHeader({",
+      "  homepageUrl: \"#\"",
+      "}) }}"
+		],
+		"description": "GOVUK: Nunjucks header component"
+  }
+}
