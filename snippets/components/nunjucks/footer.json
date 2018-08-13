@@ -1,0 +1,11 @@
+{
+  "GOVUK / components / footer / ": {
+		"prefix": "gov-html-component-footer",
+		"body": [
+			"{% from \"footer/macro.njk\" import govukFooter %}",
+			"",
+			"{{ govukFooter({}) }}"
+		],
+		"description": "GOVUK: HTML footer component"
+  }
+}
