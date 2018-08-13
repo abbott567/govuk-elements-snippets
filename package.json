@@ -1,85 +1,247 @@
 {
-    "name": "govuk-elements-snippets",
-    "displayName": "GOVUK Snippets",
-    "description": "GOVUK Elements Snippets for VS Code",
-    "icon": "images/icon.png",
-    "version": "0.2.1",
-    "publisher": "abbott567",
-    "license": "All content is available under the Open Government Licence v3.0, except where otherwise stated.",
-    "homepage": "https://github.com/abbott567/govuk-elements-snippets/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/abbott567/govuk-elements-snippets.git"
-    },
-    "engines": {
-        "vscode": "^0.10.1"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "government",
-        "govuk",
-        "gds",
-        "gov.uk",
-        "snippet",
-        "snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/styles/global/colour.json"
-            },
-            {
-                "language": "nunjucks",
-                "path": "./snippets/styles/global/colour.json"
-            },
-            
-            {
-                "language": "html",
-                "path": "./snippets/styles/global/images.json"
-            },
-            {
-                "language": "nunjucks",
-                "path": "./snippets/styles/global/images.json"
-            },
-
-            {
-                "language": "html",
-                "path": "./snippets/styles/global/layout.json"
-            },
-            {
-                "language": "nunjucks",
-                "path": "./snippets/styles/global/layout.json"
-            },
-
-            {
-                "language": "html",
-                "path": "./snippets/styles/global/spacing.json"
-            },
-            {
-                "language": "nunjucks",
-                "path": "./snippets/styles/global/spacing.json"
-            },
-
-            {
-                "language": "html",
-                "path": "./snippets/styles/global/typography.json"
-            },
-            {
-                "language": "nunjucks",
-                "path": "./snippets/styles/global/typography.json"
-            },
-
-            {
-                "language": "html",
-                "path": "./snippets/styles/html/page-template.json"
-            },
-            {
-                "language": "nunjucks",
-                "path": "./snippets/styles/nunjucks/page-template.json"
-            }
-        ]
-    }
+  "name": "govuk-elements-snippets",
+  "displayName": "GOVUK Snippets",
+  "description": "GOVUK Elements Snippets for VS Code",
+  "icon": "images/icon.png",
+  "version": "0.2.1",
+  "publisher": "abbott567",
+  "license": "All content is available under the Open Government Licence v3.0, except where otherwise stated.",
+  "homepage": "https://github.com/abbott567/govuk-elements-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abbott567/govuk-elements-snippets.git"
+  },
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "government",
+    "govuk",
+    "gds",
+    "gov.uk",
+    "snippet",
+    "snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      { "_c": "--------------------------------------------------------- styles" },
+      {
+        "language": "html",
+        "path": "./snippets/styles/global/colour.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/global/colour.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/styles/global/images.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/global/images.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/styles/global/layout.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/global/layout.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/styles/global/spacing.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/global/spacing.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/styles/global/typography.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/global/typography.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/styles/html/page-template.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/styles/nunjucks/page-template.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/html/page-template.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/styles/nunjucks/page-template.json"
+      },
+      { "_c": "----------------------------------------------------- components" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/backlink.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/backlink.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/backlink.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/backlink.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/breadcrumbs.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/breadcrumbs.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/breadcrumbs.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/breadcrumbs.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/button.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/button.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/button.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/button.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/checkboxes.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/checkboxes.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/checkboxes.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/checkboxes.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/date.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/date.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/date.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/date.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/details.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/details.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/details.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/details.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/error-summary.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/error-summary.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/error-summary.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/error-summary.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/fieldset.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/fieldset.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/fieldset.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/fieldset.json"
+      },
+      { "_c": "----------------------------------------------------------------" },
+      {
+        "language": "html",
+        "path": "./snippets/components/html/footer.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/components/nunjucks/footer.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/html/footer.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/components/nunjucks/footer.json"
+      }
+    ]
+  }
 }
