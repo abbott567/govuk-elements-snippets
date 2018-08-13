@@ -1,0 +1,15 @@
+{
+  "GOVUK / components / fieldset / ": {
+		"prefix": "gov-html-component-fieldset",
+		"body": [
+			"<fieldset class=\"govuk-fieldset\">",
+			"  <legend class=\"govuk-fieldset__legend govuk-fieldset__legend--xl\">",
+			"    <h1 class=\"govuk-fieldset__heading\">",
+			"      Legend text goes here",
+			"    </h1>",
+			"  </legend>",
+			"</fieldset>"
+		],
+		"description": "GOVUK: HTML fieldset component"
+  }
+}

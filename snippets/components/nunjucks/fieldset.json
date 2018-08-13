@@ -1,0 +1,17 @@
+{
+  "GOVUK / components / fieldset / ": {
+		"prefix": "gov-njk-component-fieldset",
+		"body": [
+			"{% from \"fieldset/macro.njk\" import govukFieldset %}",
+			"",
+			"{{ govukFieldset({",
+			"  legend: {",
+			"    text: \"Legend text goes here\",",
+			"    classes: \"govuk-fieldset__legend--xl\",",
+			"    isPageHeading: true",
+			"  }",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks fieldset component"
+  }
+}
