@@ -1,0 +1,23 @@
+{
+  "GOVUK / components / error summary / ": {
+		"prefix": "gov-njk-component-error-summary",
+		"body": [
+		"{% from \"error-summary/macro.njk\" import govukErrorSummary %}",
+		"",
+		"{{ govukErrorSummary({",
+		"  titleText: \"There is a problem\",",
+		"  errorList: [",
+		"    {",
+		"      text: \"Date of birth must be in the past\",",
+		"      href: \"#dob-error\"",
+		"    },",
+		"    {",
+		"      text: \"Enter a postcode, like AA1 1AA\",",
+		"      href: \"#postcode-error\"",
+		"    }",
+		"  ]",
+		"}) }}"
+		],
+		"description": "GOVUK: Nunjucks error summary component"
+  }
+}
