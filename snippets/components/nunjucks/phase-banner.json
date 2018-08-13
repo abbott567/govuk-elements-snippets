@@ -1,0 +1,16 @@
+{
+  "GOVUK / components / phase banner / ": {
+		"prefix": "gov-njk-component-phase-banner",
+		"body": [
+			"{% from \"phase-banner/macro.njk\" import govukPhaseBanner %}",
+			"",
+			"{{ govukPhaseBanner({",
+			"  tag: {",
+			"    text: \"alpha\"",
+			"  },",
+			"  html: 'This is a new service – your <a class=\"govuk-link\" href=\"#\">feedback</a> will help us to improve it.'",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks phase banner component"
+	}
+}
