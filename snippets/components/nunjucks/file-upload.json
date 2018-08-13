@@ -1,0 +1,17 @@
+{
+  "GOVUK / components / file upload / ": {
+		"prefix": "gov-njk-component-file-upload",
+		"body": [
+			"{% from \"file-upload/macro.nj\" import govukFileUpload %}",
+			"",
+			"{{ govukFileUpload({",
+			"  id: \"file-upload-1\",",
+			"  name: \"file-upload-1\",",
+			"  label: {",
+			"    text: \"Upload a file\"",
+			"  }",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks file upload component"
+  }
+}
