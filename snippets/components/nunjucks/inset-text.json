@@ -1,0 +1,13 @@
+{
+  "GOVUK / components / inset text / ": {
+		"prefix": "gov-njk-component-inset-text",
+		"body": [
+			"{% from \"inset-text/macro.njk\" import govukInsetText %}",
+			"",
+			"{{ govukInsetText({",
+			"  text: \"It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the application.\"",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks inset text component"
+  }
+}
