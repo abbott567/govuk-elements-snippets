@@ -1,0 +1,15 @@
+{
+  "GOVUK / components / panel / ": {
+		"prefix": "gov-njk-component-panel",
+		"body": [
+			"{% from \"panel/macro.njk\" import govukPanel %}",
+			"",
+			"{{ govukPanel({",
+			"  headingLevel: 1,",
+			"  titleText: \"Application complete\",",
+			"  html: \"Your reference number<br><strong>HDJ2123F</strong>\"",
+			"}) }}"
+		],
+		"description": "GOVUK: Nunjucks panel component"
+  }
+}
