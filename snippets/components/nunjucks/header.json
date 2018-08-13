@@ -1,0 +1,58 @@
+{
+  "GOVUK / components / header ": {
+		"prefix": "gov-njk-component-header",
+		"body": [
+			"{% from \"header/macro.njk\" import govukHeader %}",
+      "",
+      "{{ govukHeader({",
+      "  homepageUrl: \"#\"",
+      "}) }}"
+		],
+		"description": "GOVUK: Nunjucks header component"
+  },
+  "GOVUK / components / header with service name ": {
+		"prefix": "gov-njk-component-header-with-service-name",
+		"body": [
+			"{% from \"header/macro.njk\" import govukHeader %}",
+      "",
+      "{{ govukHeader({",
+      "  homepageUrl: \"#\",",
+      "  serviceName: \"Service name\",",
+      "  serviceUrl: \"#\"",
+      "}) }}"
+		],
+		"description": "GOVUK: Nujucks header component with service name"
+  },
+  "GOVUK / components / header with navigation ": {
+		"prefix": "gov-njk-component-header-with-navigation",
+		"body": [
+			"{% from \"header/macro.njk\" import govukHeader %}",
+      "",
+      "{{ govukHeader({",",",
+      "  homepageUrl: \"#\",",
+      "  serviceName: \"Service name\",",
+      "  serviceUrl: \"#\",",
+      "  navigation: [",
+      "    {",
+      "      href: \"#1\",",
+      "      text: \"Navigation item 1\",",
+      "      active: true",
+      "    },",
+      "    {",
+      "      href: \"#2\",",
+      "      text: \"Navigation item 2\"",
+      "    },",
+      "    {",
+      "      href: \"#3\",",
+      "      text: \"Navigation item 3\"",
+      "    },",
+      "    {",
+      "      href: \"#4\",",
+      "      text: \"Navigation item 4\"",
+      "    }",
+      "  ]",
+      "}) }}"
+		],
+		"description": "GOVUK: Nunjucks header component with service name and navigation"
+  }
+}
