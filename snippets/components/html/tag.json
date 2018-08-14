@@ -1,0 +1,11 @@
+{
+  "GOVUK / components / tag / ": {
+		"prefix": "gov-html-component-tag",
+		"body": [
+			"<strong class=\"govuk-tag\">",
+      "  alpha",
+      "</strong>"
+		],
+		"description": "GOVUK: HTML tag component"
+  }
+}

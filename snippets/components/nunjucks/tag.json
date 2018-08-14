@@ -1,0 +1,13 @@
+{
+  "GOVUK / components / tag / ": {
+		"prefix": "gov-njk-component-tag",
+		"body": [
+			"{%- from \"tag/macro.njk\" import govukTag -%}",
+      "",
+      "{{ govukTag({",
+      "  text: \"alpha\"",
+      "}) }}"
+		],
+		"description": "GOVUK: Nunjucks tag component"
+  }
+}
