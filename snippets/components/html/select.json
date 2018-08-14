@@ -1,0 +1,19 @@
+{
+  "GOVUK / components / select / ": {
+		"prefix": "gov-html-component-select",
+		"body": [
+			"<div class=\"govuk-form-group\">",
+			"  <label class=\"govuk-label\" for=\"sort\">",
+			"    Sort by",
+			"  </label>",
+			"  <select class=\"govuk-select\" id=\"sort\" name=\"sort\">",
+			"    <option value=\"published\">Recently published</option>",
+			"    <option value=\"updated\" selected>Recently updated</option>",
+			"    <option value=\"views\">Most views</option>",
+			"    <option value=\"comments\">Most comments</option>",
+			"  </select>",
+			"</div>"
+		],
+		"description": "GOVUK: HTML select component"
+  }
+}
