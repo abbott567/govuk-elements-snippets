@@ -1,0 +1,14 @@
+{
+  "GOVUK / components / skip link / ": {
+		"prefix": "gov-njk-component-skip-link",
+		"body": [
+      "{% from \"skip-link/macro.njk\" import govukSkipLink %}",
+      "",
+      "{{ govukSkipLink({",
+      "  text: \"Skip to main content\",",
+      "  href: \"#content\"",
+      "}) }}"
+		],
+		"description": "GOVUK: Nunjucks skip link component"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "GOVUK / components / skip link / ": {
+		"prefix": "gov-html-component-skip-link",
+		"body": [
+			"<p class=\"govuk-body\">To view the skip link component tab to this example, or click inside this example and press tab.</p>",
+			"",
+			"<a href=\"#content\" class=\"govuk-skip-link\">Skip to main content</a>"
+		],
+		"description": "GOVUK: HTML skip link component"
+  }
+}
